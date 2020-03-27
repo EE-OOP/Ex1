@@ -1,1 +1,28 @@
-Question 1
+Chris: Chris wants to send flowers to Robin so he contacts Fred his florist.
+Chris gives Fred Robin's address, how much to spend and type of flowers to send Robin
+
+Fred's Responsibilities: to contact a florist in Robin's city giving him all the information
+he received from Chris.
+
+Robbin's Florist's Responsibilities: The florist orders from the Wholesaler the requested flowers,
+contacts the flower arranger to arrange the flowers nicely for Robin
+After everything is taken care of the florist then contacts the delivery person to deliver the
+marvelous flowers to Robin
+
+Wholesaler's Responsibilities: The wholesaler checks for the flowers' availability and
+contacts the flower grower in case any flowers are missing from Robin's florist's order.
+After he receives all the required flowers from the grower he then supplies all of the flowers to
+Robin's florist
+
+Grower's Responsibilities: Forwards the wholesaler's request to the Gardener and supplies the flowers
+to the wholesaler from the gardener
+
+Gardener's Responsibilities: Receives the request from the grower and plants and picks the requested flowers
+
+Flower Arranger's Responsibilities: Receives the flowers from Robin's Florist and makes a nice bouquet
+to amaze Robin and then sends the finished product to Robin's Florist ready for delivery.
+
+Delivery Person's Responsibilities: Receives the bouquet from the Robin's florist and delivers them to Robin.
+
+Robin: Robin opens the door to her house and is flat out astonished by the flowers and is ready to propose to Chris.
+
