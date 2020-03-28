@@ -1,6 +1,8 @@
 package ServiceProviders;
 
 import Products.*;
+
+import java.util.ArrayList;
 import java.util.List;
 
 public class Florist {
@@ -12,7 +14,7 @@ public class Florist {
 
     public Florist (String name, Wholesaler ws, FlowerArranger fa, DeliveryPerson dp) {
         this.name = name;
-        clients = null;
+        clients = new ArrayList<>();
         this.ws = ws;
         this.fa = fa;
         this.dp = dp;
@@ -30,6 +32,7 @@ public class Florist {
         }
         else {
             Florist florist = new Florist("Robin's Florist", ws, fa, dp);
+            florist.addClient("Robin");
             florist.prepareOrder(flowersList, sendTo);
         }
     }
