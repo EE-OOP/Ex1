@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7df874f9-9efe-4259-9397-ad41513397fb" name="Default Changelist" comment="">
+    <list default="true" id="7df874f9-9efe-4259-9397-ad41513397fb" name="Default Changelist" comment="Florist bug fix #2 - getter's and more generic printouts">
       <change afterPath="$PROJECT_DIR$/Tests/Clients/RecipientTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Tests/Clients/SenderTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Tests/Products/BouquetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceProviders/Florist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceProviders/Florist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceProviders/FlowerArranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceProviders/FlowerArranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceProviders/Gardener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceProviders/Gardener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceProviders/Grower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceProviders/Grower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ServiceProviders/Wholesaler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ServiceProviders/Wholesaler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +103,7 @@
       <updated>1585302632485</updated>
       <workItem from="1585302635377" duration="1016000" />
       <workItem from="1585413963623" duration="2289000" />
-      <workItem from="1585457489131" duration="1848000" />
+      <workItem from="1585457489131" duration="2093000" />
     </task>
     <task id="LOCAL-00001" summary="Florist bug fix #1 - hard coded names">
       <created>1585458399820</created>
@@ -118,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585458399820</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Florist bug fix #2 - getter's and more generic printouts">
+      <created>1585459387627</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585459387627</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Florist bug fix #2 - getter's and more generic printouts">
+      <created>1585459550617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585459550617</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Florist bug fix #1 - hard coded names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Florist bug fix #1 - hard coded names" />
+    <MESSAGE value="Florist bug fix #2 - getter's and more generic printouts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Florist bug fix #2 - getter's and more generic printouts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="677" y="191" key="#Main" timestamp="1585415098828">
@@ -161,10 +170,10 @@
     </state>
     <state x="807" y="420" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585413983429" />
     <state x="807" y="469" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1160@0.0.1920.1160" timestamp="1585392449507" />
-    <state x="585" y="117" key="CommitChangelistDialog2" timestamp="1585459526523">
+    <state x="585" y="117" key="CommitChangelistDialog2" timestamp="1585459549762">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="117" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585459526523" />
+    <state x="585" y="117" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585459549762" />
     <state x="637" y="87" key="CommitChangelistDialog2/0.0.1920.1160@0.0.1920.1160" timestamp="1585405425755" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585459389338">
       <screen x="0" y="0" width="1920" height="1040" />
