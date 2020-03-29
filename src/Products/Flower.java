@@ -13,6 +13,13 @@ public class Flower {
 
     @Override
     public boolean equals(Object obj) {
-        return type.equals((String) obj);
+        if (!(obj instanceof Flower))
+            return false;
+        return type.equals(obj.toString());
+    }
+
+    @Override
+    public String toString() {
+        return getType();
     }
 }
