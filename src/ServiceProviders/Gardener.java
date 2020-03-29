@@ -21,7 +21,7 @@ public class Gardener {
         for (String flower : flowersList) {
             flowers.add(new Flower(flower));
         }
-        System.out.println(getName() + " returns flowers to Grower");
+        System.out.println(getName() + " returns flowers to the grower");
         return flowers;
     }
 }

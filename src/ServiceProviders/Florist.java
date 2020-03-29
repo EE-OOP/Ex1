@@ -34,25 +34,25 @@ public class Florist {
             sendBouquet(dazzlingB, sendTo);
         } else {
             System.out.println(sendTo + " is not a client of " + getName() + "'s");
-            System.out.println(getName() + " forewords the order to a colleague");
-            Florist florist = new Florist(sendTo + "'s Florist", ws, fa, dp);
+            System.out.println(getName() + " forwards the order to a colleague");
+            Florist florist = new Florist(sendTo + "'s florist", ws, fa, dp);
             florist.addClient(sendTo);
             florist.prepareOrder(flowersList, sendTo);
         }
     }
 
     private List<Flower> getFlowers(List<String> flowersList) { //From Wholesaler
-        System.out.println(getName() + " forwards request to " + ws.getName());
+        System.out.println(getName() + " forwards the request to " + ws.getName());
         return ws.orderFlowers(flowersList);
     }
 
     private Bouquet getFlowerArrangement(List<Flower> flowersList) { //From Flower Arranger
-        System.out.println(getName() +" request flowers arrangement from " + fa.getName());
+        System.out.println(getName() +" requests flowers arrangement from " + fa.getName());
         return fa.makeBouquet(flowersList);
     }
 
     private void sendBouquet(Bouquet b, String sendTo) { //To Delivery Person
-        System.out.println(getName() + " forwards flowers to " + dp.getName() + " for delivery");
+        System.out.println(getName() + " forwards flowers to " + dp.getName());
         dp.makeDelivery(b, sendTo);
     }
 

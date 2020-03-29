@@ -17,7 +17,7 @@ public class FlowerArranger {
     public Bouquet makeBouquet (List<Flower> flowers) {
         System.out.println(getName() + " arranges flowers");
         Bouquet dazzlingB = new Bouquet(flowers);
-        System.out.println(getName() + " returns a Beautiful bouquet of " + dazzlingB.getFlowers().toString());
+        System.out.println(getName() + " returns a beautiful bouquet of " + dazzlingB.getFlowers().toString() + " to the florist");
         return dazzlingB;
     }
 }

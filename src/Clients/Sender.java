@@ -14,8 +14,10 @@ public class Sender {
 
     public void sendFlowers(List<String> flowers, String sendTo) {
         System.out.print(getName() + " orders flowers for " + sendTo + " from " + getServer().getName() + ": ");
+        String fl = "";
         for(String flower : flowers)
-            System.out.print(flower + " ");
+            fl += flower + ", ";
+        System.out.print(fl.substring(0, fl.length()-2));
 
         System.out.println();
         getServer().prepareOrder(flowers, sendTo);

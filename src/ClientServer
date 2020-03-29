@@ -1,15 +1,15 @@
 Chris-Fred: Chris is Fred's client and Fred is Chris's server.
 
-Fred-Robin's Florist: Fred is Robin's Florist client and Robin's Florist is Fred's server.
+Fred-Robin's Florist: Fred is Robin's florist's client and Robin's florist is Fred's server.
 
-Robin's Florist-Wholesaler: Robin's Florist is the Wholesaler's client and the Wholesaler is Robin's Florist's server.
+Robin's Florist-Wholesaler: Robin's florist is the wholesaler's client and the wholesaler is Robin's florist's server.
 
-Wholesaler-Grower: The Wholesaler is the Grower's client and the Grower is the Wholesaler's server.
+Wholesaler-Grower: The wholesaler is the grower's client and the grower is the wholesaler's server.
 
-Grower-Gardener: The Grower is the Gardener's client and the Gardener is the Grower's server.
+Grower-Gardener: The grower is the gardener's client and the gardener is the grower's server.
 
-Robin's Florist-Flower Arranger: Robin's Florist is the Flower Arranger's client and the Flower Arranger is Robin's Florist's server.
+Robin's Florist-Flower Arranger: Robin's florist is the flower arranger's client and the flower arranger is Robin's florist's server.
 
-Robin's Florist-Delivery Person: Robin's Florist is the Delivery Person's client and the Delivery Person is Robin's Florist server
+Robin's Florist-Delivery Person: robin's florist is the delivery person's client and the delivery person is robin's florist's server.
 
-Delivery Person-Robin: The Delivery Person is Robin's server and Robin is the Delivery Person's client.
+Delivery Person-Robin: The delivery person is Robin's server and Robin is the delivery person's client.
