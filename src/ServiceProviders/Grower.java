@@ -17,9 +17,9 @@ public class Grower {
     }
 
     public List<Flower> requestGardener (List<String> flowersList) {
-        System.out.println(name + " forwards order to " + gd.getName());
+        System.out.println(getName() + " forwards order to " + gd.getName());
         List<Flower> flowers = gd.growFlowers(flowersList);
-        System.out.println(name + " returns flowers to Wholesaler");
+        System.out.println(getName() + " returns flowers to Wholesaler");
         return flowers;
     }
 }

@@ -16,10 +16,10 @@ public class Wholesaler {
         return name;
     }
 
-    public List<Flower> orderFlowers (List<String> flowersList) {
-        System.out.println(name + " forwards request to Grower");
+    public List<Flower> orderFlowers (List<String> flowersList) { //to Grower
+        System.out.println(getName() + " forwards request to " + gr.getName());
         List<Flower> flowers = gr.requestGardener(flowersList);
-        System.out.println(name + " returns flowers to Robin's Florist");
+        System.out.println(getName() + " returns flowers");
         return flowers;
     }
 }

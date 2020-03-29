@@ -31,7 +31,7 @@ public class Florist {
             sendBouquet(dazzlingB, sendTo);
         } else {
             System.out.println(sendTo + " is not a client of " + getName() + "'s");
-            System.out.println(getName() + " forewords order to a colleague");
+            System.out.println(getName() + " forewords the order to a colleague");
             Florist florist = new Florist(sendTo + "'s Florist", ws, fa, dp);
             florist.addClient(sendTo);
             florist.prepareOrder(flowersList, sendTo);
