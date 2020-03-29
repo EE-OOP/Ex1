@@ -16,7 +16,7 @@ public class DeliveryPerson {
 
     public Object makeDelivery (Object o, String sendTo) {
         Recipient client = new Recipient(sendTo);
-        System.out.println(name + " delivers flowers to " + sendTo);
+        System.out.println(getName() + " delivers flowers to " + sendTo);
         return client.beAmazed((Bouquet)o);
     }
 }

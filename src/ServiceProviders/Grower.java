@@ -7,8 +7,9 @@ public class Grower {
     private String name;
     private Gardener gd;
 
-    public Grower (String name) {
+    public Grower (String name, Gardener gd) {
         this.name = name;
+        this.gd = gd;
     }
 
     public String getName() {
