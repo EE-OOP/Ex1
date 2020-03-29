@@ -13,6 +13,9 @@ public class Florist {
     private DeliveryPerson dp;
 
     public Florist(String name, Wholesaler ws, FlowerArranger fa, DeliveryPerson dp) {
+        if (name == null || ws == null || fa == null || dp == null) {
+            throw new IllegalArgumentException("The parameters can't be null");
+        }
         this.name = name;
         clients = new ArrayList<>();
         this.ws = ws;
@@ -49,7 +52,7 @@ public class Florist {
     }
 
     private void sendBouquet(Bouquet b, String sendTo) { //To Delivery Person
-        System.out.println(getName() + " forwards flowers to " + dp.getName());
+        System.out.println(getName() + " forwards flowers to " + dp.getName() + " for delivery");
         dp.makeDelivery(b, sendTo);
     }
 
