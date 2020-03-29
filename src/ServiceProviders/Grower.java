@@ -7,8 +7,9 @@ public class Grower {
     private String name;
     private Gardener gd;
 
-    public Grower (String name) {
+    public Grower (String name, Gardener gd) {
         this.name = name;
+        this.gd = gd;
     }
 
     public String getName() {
@@ -16,9 +17,9 @@ public class Grower {
     }
 
     public List<Flower> requestGardener (List<String> flowersList) {
-        System.out.println(name + " forwards order to " + gd.getName());
+        System.out.println(getName() + " forwards order to " + gd.getName());
         List<Flower> flowers = gd.growFlowers(flowersList);
-        System.out.println(name + " returns flowers to Wholesaler");
+        System.out.println(getName() + " returns flowers to Wholesaler");
         return flowers;
     }
 }

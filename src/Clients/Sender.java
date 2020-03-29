@@ -13,10 +13,11 @@ public class Sender {
     }
 
     public void sendFlowers(List<String> flowers, String sendTo) {
-        System.out.println(getName() + "orders flowers for " + sendTo + " from" + getServer().getName() + ": ");
+        System.out.print(getName() + " orders flowers for " + sendTo + " from " + getServer().getName() + ": ");
         for(String flower : flowers)
             System.out.print(flower + " ");
 
+        System.out.println();
         getServer().prepareOrder(flowers, sendTo);
     }
 

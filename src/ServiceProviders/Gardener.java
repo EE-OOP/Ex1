@@ -16,12 +16,12 @@ public class Gardener {
     }
 
     public List<Flower> growFlowers (List<String> flowersList) {
-        System.out.println(name + " prepares flowers");
+        System.out.println(getName() + " prepares flowers");
         List<Flower> flowers = new ArrayList<>(flowersList.size());
         for (String flower : flowersList) {
             flowers.add(new Flower(flower));
         }
-        System.out.println(name + " returns flowers to Grower");
+        System.out.println(getName() + " returns flowers to Grower");
         return flowers;
     }
 }
